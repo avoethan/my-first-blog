@@ -7,6 +7,7 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <script src="https://kit.fontawesome.com/a518ecbe29.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="page-header">
@@ -15,8 +16,39 @@
       </div>
     </header>
 
+      <!-- Navbar Section -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Bootstrap</a>
+  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+           <a class="nav-link" href="#">Home</a>
+           </li>
+  
+           <li class="nav-item">
+           <a class="nav-link" href="#">Courses</a>
+           </li>
+  
+         <li class="nav-item">
+           <a class="nav-link" href="#">About Us</a>
+         </li>
+  
+           <li class="nav-item">
+           <a class="nav-link" href="#">Contact Us</a>
+         </li>
+  
+           </ul>
+         </div>
+      </nav>
+
     <!-- Calender View -->
-    <div class="container_1">
+    <section id="calendar">
+      <div class="container_1">
         <div class="box = box1"><strong>Monday</strong></div>
         <div class="box = box2"><strong>Tuesday</strong></div>
         <div class="box = box3"><strong>Wednesday</strong></div>
@@ -61,5 +93,57 @@
         <div class="boxData = box11"></div>
         <div class="boxData = box11"></div>
       </div>
+    </section>
+   
+
+
+    <!-- Footer -->
+      <footer id="footer" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="first content">
+                <h2>Follow Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="social d-flex flex-row">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-md-6">
+              <div class="second content">
+                <h2>Contact Us</h2>
+                <form class="" action="index.html" method="post">
+                  <div class="email">
+                    <div class="text py-2">
+                      Email
+                    </div>
+                    <input type="email" name="py-2" value="">
+                  </div>
+                  <div class="msg">
+                    <div class="text py-2">
+                      Message
+                    </div>
+                    <textarea name="name" rows="2" cols="30"></textarea>
+                  </div>
+                  <div class="btn">
+                    <button type="submit" name="button">Send</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+  </body>
 </body>
+
 </html>
