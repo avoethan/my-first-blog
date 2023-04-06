@@ -12,13 +12,14 @@
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    text-align: left;
 }
 
 h1,
 h2,
-h3,
 h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
+
 }
 
 .date {
@@ -68,3 +69,40 @@ h4 {
     color: #FFFFFF;
     background-color: #C25100;
 }
+
+
+.container_1{
+    border: 1px solid #C25100;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 200px 300px;
+    grid-template: 100px 200px 300px / repeat(7,1fr);
+    grid-gap: 10px;
+  }
+  
+  .box{
+    background-color: #C25100;
+    border: 1px solid #C25100;
+    font-size: 36;
+    color: #ffffff;
+  }
+  
+  .boxData{
+    background-color: beige;
+    border: 1px solid #C25100;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 200px 300px;
+    grid-template: 100px 200px / repeat(7,1fr)
+  }
+  
+  .box7{
+    order:-1;
+  }
+  
+  .data{
+    background-color: beige;
+  }
+  
