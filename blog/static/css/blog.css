@@ -1,7 +1,7 @@
 .page-header {
     background-color: #C25100;
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     padding: 20px 20px 20px 40px;
 }
 
@@ -12,13 +12,14 @@
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    text-align: left;
 }
 
 h1,
 h2,
-h3,
 h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster';
+
 }
 
 .date {
@@ -68,3 +69,82 @@ h4 {
     color: #FFFFFF;
     background-color: #C25100;
 }
+
+
+.container_1{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 200px 300px;
+    grid-template: 100px 200px 300px / repeat(7,1fr);
+    grid-gap: 10px;
+  }
+  
+  .box{
+    background-color: #C25100;
+    border: 1px solid #C25100;
+    font-size: 36;
+    color: #ffffff;
+  }
+  
+  .boxData{
+    background-color: beige;
+    border: 1px solid #C25100;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 200px 300px;
+    grid-template: 100px 200px / repeat(7,1fr)
+  }
+  
+  .box7{
+    order:-1;
+  }
+  
+  .data{
+    background-color: beige;
+  }
+  
+
+  .nav-link{
+    text-transform: uppercase;
+  }
+
+  .navbar-brand{
+    font-size: 24px;
+  }
+
+ .navbar{
+    background-color: beige;
+
+  }
+
+
+  #footer{
+    background: #C25100;
+    width: 100%;
+  }
+  
+  #footer .container{
+    margin:auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #footer .container .content{
+    padding: 10px 20px;
+    color: white;
+  }
+
+  .social{
+    margin: 20px;
+  }
+  
+  .social a{
+    color: white;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+  }
