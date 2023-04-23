@@ -14,13 +14,6 @@ body {
     color: var(--body);
 }
 
-body2.landing{background-image: url(../img/cover.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    z-index: 2;}
-
 h1,h2,h3,h4,h5,h6,
 .display-4 {
     color: var(--dark);
@@ -146,7 +139,7 @@ section {
 }
 
 .col-img {
-    background-image: url(/blog/static/img/cover2.jpg);
+    background-image: url(../img/cover2.jpg);
     background-position: center;
     background-size: cover;
     min-height: 500px;
@@ -172,7 +165,7 @@ section {
 }
 
 .project img {
-    transition: all 0.4s ease;
+    transition: all 0.4s ease;   
 }
 
 .project:hover .overlay{
@@ -222,7 +215,7 @@ section {
 .social-icons a:hover {
     color: var(--primary);
     background-color: transparent;
-    border-color: var(--primary);
+    border-color: var(--primarys);
 }
 
 
