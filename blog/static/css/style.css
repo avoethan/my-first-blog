@@ -2,6 +2,7 @@
 
 :root {
     --primary: #0d6efd;
+    --primary2: #CCCCCC;
     --dark: #21252f;
     --body: #888;
     --white: #ffffff;
@@ -215,7 +216,7 @@ section {
 .social-icons a:hover {
     color: var(--primary);
     background-color: transparent;
-    border-color: var(--primarys);
+    border-color: var(--primary);
 }
 
 
