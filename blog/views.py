@@ -16,7 +16,6 @@ def landing(request):
 def your_info(request):
     return render(request, 'blog/your_info.html')
 
-
 def sign_up(request):
     if(request.method == 'POST'):
         form = RegisterForm(request.POST)
